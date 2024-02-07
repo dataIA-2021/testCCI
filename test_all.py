@@ -11,8 +11,9 @@ def test_two():
 	assert demo.test1() == None
 	
 def test_prime():
-	assert demo.est_premier(2) == False
+	assert demo.est_premier(2) == True
 	assert demo.est_premier(5) == True
 	assert demo.est_premier(7) == True
+	assert demo.est_premier(6) == False
 	assert demo.est_premier(8) == False
 	assert demo.est_premier(100000007) == True
