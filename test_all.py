@@ -5,7 +5,7 @@ def test_one():
 	assert demo.fibonacci(1) == 1
 	assert demo.fibonacci(2) == 1
 	assert demo.fibonacci(10) == 55
-	assert demo.fibonacci(10) == 99
+	#assert demo.fibonacci(10) == 99
 	
 def test_two():
 	assert demo.test1() == None
