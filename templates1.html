@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Information</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+<h1>Nom : <inline class="name">{{ name }}</inline></h1>
+<p>x = {{x}}</p>
+<form method="post" action="post_form">
+    <div class="form-example">
+        <label for="name">Quelle est votre phrase: </label>
+        <textarea name="name" id="name" rows=5 cols=40></textarea>
+    </div>
+    y: <input type="text" name="y" />
+    <input type="submit" value="Send Request" />
+</form>
+</body>
+</html>
