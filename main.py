@@ -11,7 +11,7 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
-users=[{'user':'admin', pwd:'admin'}]
+users=[{'user':'admin', 'pwd':'admin'}]
 
 @app.get("/")
 def read_root():
